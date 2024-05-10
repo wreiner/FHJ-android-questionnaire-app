@@ -1,21 +1,29 @@
 package com.example.composesurvey.data
 
+import com.example.composesurvey.R
 import com.example.composesurvey.model.Question
 
 val SurveyQuestions = listOf(
     Question(
-        id = 0,
-        text = "Question 1",
-        answers = listOf("Q1A1", "Q1A2")
+        text = R.string.question_favorite_pet,
+        answers = listOf(
+            R.string.answer_favorite_pet_dog,
+            R.string.answer_favorite_pet_cat
+        )
     ),
     Question(
-        id = 1,
-        text = "Question 2",
-        answers = listOf("Q2A1", "Q2A2", "Q2A3")
+        text = R.string.question_preferred_hot_beverage,
+        answers = listOf(
+            R.string.answer_preferred_hot_beverage_coffee,
+            R.string.answer_preferred_hot_beverage_tea,
+            R.string.answer_preferred_hot_beverage_cocoa
+        )
     ),
     Question(
-        id = 2,
-        text = "Question 3",
-        answers = listOf("Q3A1", "Q3A2", "Q3A3")
+        text = R.string.question_best_coding_language,
+        answers = listOf(
+            R.string.answer_best_coding_language_notjava,
+            R.string.answer_best_coding_language_kotlin
+        )
     )
 )

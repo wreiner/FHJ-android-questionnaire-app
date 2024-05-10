@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="question_favorite_pet">What is your favorite pet?</string>
+    <string name="answer_favorite_pet_cat">Cat</string>
+    <string name="answer_favorite_pet_dog">Dog</string>
+    <string name="question_preferred_hot_beverage">What is your preferred hot beverage?</string>
+    <string name="answer_preferred_hot_beverage_coffee">Coffee</string>
+    <string name="answer_preferred_hot_beverage_tea">Tea</string>
+    <string name="answer_preferred_hot_beverage_cocoa">Cocoa</string>
+    <string name="question_best_coding_language">What is the best coding language?</string>
+    <string name="answer_best_coding_language_notjava">Definitely not Java</string>
+    <string name="answer_best_coding_language_kotlin">Kotlin</string>
+</resources>

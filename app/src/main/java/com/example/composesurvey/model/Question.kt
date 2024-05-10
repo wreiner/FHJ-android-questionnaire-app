@@ -5,10 +5,9 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 
 data class Question(
-    val id: Int,
-    val text: String,
-    val answers: List<String>,
+    val text: Int,
+    val answers: List<Int>,
 ) {
-    var selectedAnswer: String? by mutableStateOf(null)
+    var selectedAnswer: Int? by mutableStateOf(null)
 }
 
